@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "*"
+goprocam = "*"
+
+[dev-packages]
+python-language-server = {extras = ["all"], version = "*"}
+pyls-mypy = "*"
+pyls-isort = "*"
+flake8 = "*"
+yapf = "*"
+pytest = "*"
+autoflake = "*"
+ptvsd = ">=4.2"
+importmagic = "*"
+epc = "*"
+pipenv = "*"
+
+[requires]
+python_version = "3.9"
