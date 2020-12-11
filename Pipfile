@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 click = "*"
 goprocam = "*"
+opencv-python = "*"
 
 [dev-packages]
 python-language-server = {extras = ["all"], version = "*"}
